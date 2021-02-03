@@ -1,7 +1,6 @@
 /* sns */
 .sns{
     background-color: white;
-    height: 50%;
     text-align: center;
     padding-top: 30px;
 }
@@ -14,6 +13,11 @@
     text-align: center;
     border-bottom: solid 3px; 
     padding-bottom: 5px;
+}
+.sns_item{
+    width: 65%;
+    text-align: left;
+    margin: 40px auto;
 }
 
 /* ____________________________________ */
@@ -34,4 +38,7 @@
     text-align: center;
     border-bottom: solid 3px; 
     padding-bottom: 5px;
+}
+.email{
+    margin: 30px;
 }
