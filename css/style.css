@@ -15,23 +15,22 @@ header{
     font-size: 15px;
 }
 .menu_item{
-    color: #8EB8FF;
+    color: black;
     margin-right: 10px;
     padding: 4px;
     border-right: solid 1px;
     transition: all 0.3s ease 0s;
 }
 .menu_item:hover{
-    background-color: #8EB8FF;
+    background-color: black;
     color: white;
 }
 /*　ヘッダー　*/
 
 /*________________________________________*/
-
 /* 表紙 */
 .title{
-    background-color: #A4C6FF;
+    background-color: #EEEEEE;
     height: 95%;
     width: 100%;
     display: flex;
@@ -42,7 +41,7 @@ header{
     
 }
 .title_item{
-    color: white;
+    color: black;
     font-size: 30px;
     letter-spacing: 2px;
     margin-bottom: 30px;
@@ -50,37 +49,42 @@ header{
 .title_btn_group{
     padding: 15px;
     border: solid 1px;
-    border-color: white;
+    border-color: black;
     border-radius: 10px;
 }
 .title_btn{
-    color: white;
+    color: black;
     font-size: 18px;
     border-right: solid 1px;
-    border-color: white;
+    border-color: black;
     padding: 3px;
     transition: all 0.3s ease 0s;
 }
 .title_btn:hover{
-    background-color: white;
-    color: #8EB8FF;}
+    background-color: black;
+    color: white;
+}
 /* 表紙 */
 
 /* _____________________________________________ */
 
 /* はじめに */
 .first{
-    background-color: #E9FFA5;
+    background-color: white;
     height: 50%;
-
+    text-align: center;
+    padding-top: 30px;
 }
-/* はじめに */
 #first_title{
-    margin-top:-42px;
-    padding-top:42px;
+    margin-top:-40px;
+    padding-top:70px;
 }
 .first_title{
-    }
+    font-size: 30px;
+    text-align: center;
+    border-bottom: solid 3px; 
+    padding-bottom: 5px;
+}
 
 
 

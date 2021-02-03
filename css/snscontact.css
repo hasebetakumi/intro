@@ -1,0 +1,37 @@
+/* sns */
+.sns{
+    background-color: white;
+    height: 50%;
+    text-align: center;
+    padding-top: 30px;
+}
+#sns_title{
+    margin-top:-40px;
+    padding-top:70px;
+}
+.sns_title{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: solid 3px; 
+    padding-bottom: 5px;
+}
+
+/* ____________________________________ */
+
+/* contact */
+.contact{
+    background-color: #EEEEEE;
+    height: 50%;
+    text-align: center;
+    padding-top: 30px;
+}
+#contact_title{
+    margin-top:-40px;
+    padding-top:70px;
+}
+.contact_title{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: solid 3px; 
+    padding-bottom: 5px;
+}

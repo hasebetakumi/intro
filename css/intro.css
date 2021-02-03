@@ -1,3 +1,24 @@
+.intro{
+    background-color: #EEEEEE;
+    height: 50%;
+    text-align: center;
+    padding-top: 30px;
+}
+#intro_title{
+    margin-top:-40px;
+    padding-top:70px;
+}
+.intro_title{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: solid 3px; 
+    padding-bottom: 5px;
+}
+
+
+
+
+
 /*ボックス全体*/
 .intro_item {
     margin: 2em 0;
