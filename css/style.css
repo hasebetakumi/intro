@@ -1,62 +1,90 @@
-.title{
-    position: relative;
-}
 
-.coffee{
+/*　ヘッダー　*/
+header{
+    position: fixed;
+    top: 0px; 
+    left: 0px;   
+    height: 40px;
     width: 100%;
-    height: 80%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
 }
-
-.title_item{
-    position: absolute;
+.menu_item{
+    color: black;
+    margin-right: 10px;
+    padding: 4px;
+    border-right: solid 1px;
+    transition: all 0.3s ease 0s;
+}
+.menu_item:hover{
+    background-color: black;
     color: white;
-    top: 0;
-    left: 0;
+}
+/*　ヘッダー　*/
+
+/*________________________________________*/
+/* 表紙 */
+.title{
+    background-color: #EEEEEE;
+    height: 95%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    
+}
+.title_item{
+    color: black;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.title_btn_group{
+    padding: 15px;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 10px;
+}
+.title_btn{
+    color: black;
+    font-size: 18px;
+    border-right: solid 1px;
+    border-color: black;
+    padding: 3px;
+    transition: all 0.3s ease 0s;
+}
+.title_btn:hover{
+    background-color: black;
+    color: white;
+}
+/* 表紙 */
+
+/* _____________________________________________ */
+
+/* はじめに */
+.first{
+    background-color: white;
+    height: 50%;
+    text-align: center;
+    padding-top: 30px;
+}
+#first_title{
+    margin-top:-40px;
+    padding-top:70px;
+}
+.first_title{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: solid 3px; 
+    padding-bottom: 5px;
 }
 
 
-/*ボックス全体*/
-.intro_item {
-    margin: 2em 0;
-    padding: 0;
-    max-width: 400px;/*最大幅*/
-}
 
-/*ラベル*/
-.intro_item label {
-    display: block;
-    margin: 1.5px 0;
-    padding : 11px 12px;
-    color :#2f8fcf;
-    font-weight: bold;
-    background :#a4cbf3;
-    cursor :pointer;
-    transition: all 0.5s;
-}
-
-/*ラベルホバー時*/
-.intro_item label:hover {
-    background :#85baef;
-}
-
-/*チェックは隠す*/
-.intro_item input {
-    display: none;
-}
-
-/*中身を非表示にしておく*/
-.intro_item .accshow {
-    height: 0;
-    padding: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: 0.8s;
-}
-
-/*クリックで中身表示*/
-.cssacc:checked + .accshow {
-    height: auto;
-    padding: 5px;
-    background: #eaeaea;
-    opacity: 1;
-}
