@@ -1,6 +1,5 @@
 .work{
     background-color: white;
-    height: 50%;
     text-align: center;
     padding-top: 30px;
 }
@@ -13,4 +12,34 @@
     text-align: center;
     border-bottom: solid 3px; 
     padding-bottom: 5px;
+}
+
+.first_work{
+    display: flex;
+    justify-content: center;
+    border: solid 1px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 20px;
+}
+.thumbnail_and_title{
+    padding: 5px;
+}
+.work_thumbnail{
+    border: solid 1px;
+    border-radius: 5px;
+    width: 25%;
+    margin-right: 50px;
+}
+.thumbnail{
+    margin: 5px auto;
+    border: solid 1px;
+    
+}
+.work_explain{
+    width: 75%;
+}
+.tech{
+    text-align: left;
 }

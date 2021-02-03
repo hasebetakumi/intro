@@ -71,7 +71,6 @@ header{
 /* はじめに */
 .first{
     background-color: white;
-    height: 50%;
     text-align: center;
     padding-top: 30px;
 }
@@ -84,6 +83,9 @@ header{
     text-align: center;
     border-bottom: solid 3px; 
     padding-bottom: 5px;
+}
+.first_text_group{
+    margin: 30px 0 30px 0;
 }
 
 
