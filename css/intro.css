@@ -1,6 +1,5 @@
 .intro{
     background-color: #EEEEEE;
-    height: 50%;
     text-align: center;
     padding-top: 30px;
 }
@@ -14,42 +13,101 @@
     border-bottom: solid 3px; 
     padding-bottom: 5px;
 }
-
-
+.short{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 20px;
+}
+.picture{
+    margin-right: 30px;
+}
+.short_intro{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.coffee02{
+    border-radius: 50px;
+}
 
 
 
 /*ボックス全体*/
 .intro_item {
-    margin: 2em 0;
+    margin: 30px auto;
     padding: 0;
-    max-width: 400px;/*最大幅*/
+    width: fit-content;/*最大幅*/
 }
 
+/* history */
 /*ラベル*/
-.intro_item label {
+.history label {
     display: block;
     margin: 1.5px 0;
     padding : 11px 12px;
-    color :#2f8fcf;
+    color : black;
     font-weight: bold;
-    background :#a4cbf3;
+    background :white;
     cursor :pointer;
     transition: all 0.5s;
 }
-
 /*ラベルホバー時*/
-.intro_item label:hover {
-    background :#85baef;
+.history label:hover {
+    background :black;
+    color: white;
 }
 
 /*チェックは隠す*/
-.intro_item input {
+.history input {
     display: none;
 }
 
 /*中身を非表示にしておく*/
-.intro_item .accshow {
+.history .accshow {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.cssacc:checked + .accshow {
+    height: auto;
+    padding: 5px;
+    background: #eaeaea;
+    opacity: 1;
+}
+
+/* future */
+/*ラベル*/
+.future label {
+    display: block;
+    margin: 1.5px 0;
+    padding : 11px 12px;
+    color : black;
+    font-weight: bold;
+    background :white;
+    cursor :pointer;
+    transition: all 0.5s;
+}
+/*ラベルホバー時*/
+.future label:hover {
+    background :black;
+    color: white;
+}
+
+/*チェックは隠す*/
+.future input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.future .accshow {
     height: 0;
     padding: 0;
     overflow: hidden;
