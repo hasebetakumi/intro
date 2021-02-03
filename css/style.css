@@ -1,17 +1,86 @@
-.title{
-    position: relative;
-}
 
-.coffee{
+/*　ヘッダー　*/
+header{
+    position: fixed;
+    top: 0px; 
+    left: 0px;   
+    height: 40px;
     width: 100%;
-    height: 80%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
 }
-
-.title_item{
-    position: absolute;
+.menu_item{
+    color: #8EB8FF;
+    margin-right: 10px;
+    padding: 4px;
+    border-right: solid 1px;
+    transition: all 0.3s ease 0s;
+}
+.menu_item:hover{
+    background-color: #8EB8FF;
     color: white;
-    top: 0;
-    left: 0;
 }
+/*　ヘッダー　*/
+
+/*________________________________________*/
+
+/* 表紙 */
+.title{
+    background-color: #A4C6FF;
+    height: 95%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    
+}
+.title_item{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.title_btn_group{
+    padding: 15px;
+    border: solid 1px;
+    border-color: white;
+    border-radius: 10px;
+}
+.title_btn{
+    color: white;
+    font-size: 18px;
+    border-right: solid 1px;
+    border-color: white;
+    padding: 3px;
+    transition: all 0.3s ease 0s;
+}
+.title_btn:hover{
+    background-color: white;
+    color: #8EB8FF;}
+/* 表紙 */
+
+/* _____________________________________________ */
+
+/* はじめに */
+.first{
+    background-color: #E9FFA5;
+    height: 50%;
+
+}
+/* はじめに */
+#first_title{
+    margin-top:-42px;
+    padding-top:42px;
+}
+.first_title{
+    }
+
 
 
