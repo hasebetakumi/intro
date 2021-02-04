@@ -19,7 +19,7 @@
     justify-content: center;
     border: solid 1px;
     border-radius: 5px;
-    width: fit-content;
+    max-width: 90%;
     margin: 50px auto;
     padding: 20px;
     box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
@@ -59,7 +59,14 @@
 .tech_reason{
     margin-top: 15px;
     margin-bottom: 15px;
-    width: 50%;
+    width: 100%;
+}
+.tech_reason_item{
+    text-align: left;
+    font-size: 13px;
+}
+.tech_table{
+    background-color: white;
 }
 /*ラベル*/
 .tech_reason label {
