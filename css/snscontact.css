@@ -3,6 +3,7 @@
     background-color: white;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 #sns_title{
     margin-top:-40px;
@@ -18,7 +19,6 @@
     width: 65%;
     text-align: left;
     margin: 40px auto;
-    margin-bottom: 100px;
 }
 
 /* ____________________________________ */
@@ -29,6 +29,7 @@
     height: 50%;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 #contact_title{
     margin-top:-40px;
@@ -42,5 +43,4 @@
 }
 .email{
     margin: 30px;
-    padding-bottom: 100px;
 }
