@@ -1,0 +1,16 @@
+.last{
+    background-color: #EEEEEE;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#last_title{
+    margin-top:-40px;
+    padding-top:90px;
+}
+.last_title{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: solid 3px; 
+    padding-bottom: 5px;
+}

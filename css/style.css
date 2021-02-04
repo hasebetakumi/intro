@@ -13,6 +13,7 @@ header{
     align-items: center;
     text-align: center;
     font-size: 15px;
+    z-index: 99;
 }
 .menu_item{
     color: black;
