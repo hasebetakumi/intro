@@ -14,6 +14,10 @@
     border-bottom: solid 3px; 
     padding-bottom: 5px;
 }
+.work_subtitle{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
 
 .first_work{
     display: flex;
@@ -21,7 +25,8 @@
     border: solid 1px;
     border-radius: 5px;
     max-width: 70%;
-    margin: 50px auto;
+    margin: 0px auto;
+    margin-bottom: 70px;
     padding: 20px;
     box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
 }
