@@ -2,11 +2,11 @@
 .sns{
     background-color: white;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 #sns_title{
     margin-top:-40px;
-    padding-top:70px;
+    padding-top:90px;
 }
 .sns_title{
     font-size: 30px;
@@ -18,6 +18,7 @@
     width: 65%;
     text-align: left;
     margin: 40px auto;
+    margin-bottom: 100px;
 }
 
 /* ____________________________________ */
@@ -27,11 +28,11 @@
     background-color: #EEEEEE;
     height: 50%;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 #contact_title{
     margin-top:-40px;
-    padding-top:70px;
+    padding-top:90px;
 }
 .contact_title{
     font-size: 30px;
@@ -41,4 +42,5 @@
 }
 .email{
     margin: 30px;
+    padding-bottom: 100px;
 }

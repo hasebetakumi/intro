@@ -1,11 +1,11 @@
 .skill{
     background-color: #EEEEEE;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 #skill_title{
     margin-top:-40px;
-    padding-top:70px;
+    padding-top:90px;
 }
 .skill_title{
     font-size: 30px;
@@ -40,4 +40,7 @@
 }
 .skill_name{
     margin-left: 5px;
+}
+.skill_bottom{
+    margin-bottom: 100px;
 }
