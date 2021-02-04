@@ -1,11 +1,11 @@
 .work{
     background-color: white;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 #work_title{
     margin-top:-40px;
-    padding-top:70px;
+    padding-top:90px;
 }
 .work_title{
     font-size: 30px;
@@ -20,26 +20,93 @@
     border: solid 1px;
     border-radius: 5px;
     width: fit-content;
-    margin: 30px auto;
+    margin: 50px auto;
     padding: 20px;
-}
-.thumbnail_and_title{
-    padding: 5px;
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
 }
 .work_thumbnail{
     border: solid 1px;
+    border-color: gray;
     border-radius: 5px;
-    width: 25%;
+    width: 30%;
     margin-right: 50px;
+    padding: 10px;
+}
+.thumbnail_and_title{
+    border: solid 1px;
+    border-color: gray;
+    margin-bottom: 10px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.2);
+}
+.thumbnail_title{
+    font-weight: bold;
+    color: black;
+}
+.source_code{
+    color: blue;
 }
 .thumbnail{
     margin: 5px auto;
-    border: solid 1px;
-    
 }
+.login_word{
+    font-size: 12px;}
 .work_explain{
-    width: 75%;
+    width: 70%;
 }
 .tech{
     text-align: left;
+}
+.tech_reason{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 50%;
+}
+/*ラベル*/
+.tech_reason label {
+    display: block;
+    margin: 1.5px 0;
+    padding : 5px;
+    color : black;
+    font-weight: bold;
+    background :white;
+    cursor :pointer;
+    transition: all 0.5s;
+    border: solid 1px;
+}
+/*ラベルホバー時*/
+.tech_reason label:hover {
+    background :black;
+    color: white;
+}
+
+/*チェックは隠す*/
+.tech_reason input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.tech_reason .accshow {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.cssacc:checked + .accshow {
+    height: auto;
+    padding: 5px;
+    background: #eaeaea;
+    opacity: 1;
+}
+.alert_group{
+    text-align: left;
+    font-size: 13px;
+}
+.real{
+    color: blue;
+}
+.work_bottom{
+    margin-bottom: 100px;
 }
