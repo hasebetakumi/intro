@@ -29,17 +29,66 @@
 .work_thumbnail{
     border: solid 1px;
     border-radius: 5px;
-    width: 25%;
+    width: 30%;
     margin-right: 50px;
 }
 .thumbnail{
     margin: 5px auto;
     border: solid 1px;
-    
 }
+.login_word{
+    font-size: 12px;}
 .work_explain{
-    width: 75%;
+    width: 70%;
 }
 .tech{
     text-align: left;
+}
+.tech_reason{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 50%;
+}
+/*ラベル*/
+.tech_reason label {
+    display: block;
+    margin: 1.5px 0;
+    padding : 5px;
+    color : black;
+    font-weight: bold;
+    background :white;
+    cursor :pointer;
+    transition: all 0.5s;
+    border: solid 1px;
+}
+/*ラベルホバー時*/
+.tech_reason label:hover {
+    background :black;
+    color: white;
+}
+
+/*チェックは隠す*/
+.tech_reason input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.tech_reason .accshow {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.cssacc:checked + .accshow {
+    height: auto;
+    padding: 5px;
+    background: #eaeaea;
+    opacity: 1;
+}
+.alert_group{
+    text-align: left;
+    font-size: 13px;
 }
