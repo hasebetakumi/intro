@@ -55,7 +55,8 @@
     margin: 5px auto;
 }
 .login_word{
-    font-size: 12px;}
+    font-size: 12px;
+}
 .work_explain{
     width: 50%;
 }
@@ -119,4 +120,37 @@
 }
 .real{
     color: blue;
+}
+
+@media (max-width: 1279px){
+.first_work{
+    max-width: 80%;
+    width: 80%;
+}
+.work_explain{
+    width: 70%;
+}
+}
+
+@media (max-width: 900px){
+.first_work{
+    flex-direction: column;
+    max-width: 90%;
+    width: 90%;
+}
+.work_thumbnail{
+    max-width: 100%;
+    width: fit-content;
+    margin: 0 auto;
+}
+.work_explain{
+    max-width: 100%;
+    width: fit-content;
+    font-size: 13px;
+    margin: 10px auto;
+    
+}
+}
+
+@media (max-width: 480px){
 }

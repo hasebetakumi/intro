@@ -23,9 +23,31 @@
     width: 60%;
     margin: 0 auto;
 }
+.skill_table{
+    border-collapse: separate;
+    border-spacing: 0px 20px;
+}
 .skill_image{
     display: flex;
     align-items: center;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+@media (max-width: 1279px){
+.all_skill{
+    width: 80%;
+}
+}
+
+@media (max-width: 900px){
+.all_skill{
+    width: 95%;
+}
+}
+
+@media (max-width: 480px){
+.skill_thumbnail_hidden{
+    display: none;
+}
 }

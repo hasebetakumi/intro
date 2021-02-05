@@ -14,13 +14,17 @@
 <body>
     <header>
         <div class="menu">
-            <a class="menu_item" href="#first_title">はじめに</a>
-            <a class="menu_item" href="#skill_title">スキル</a>
-            <a class="menu_item" href="#work_title">製作物</a>
-            <a class="menu_item" href="#intro_title">自己紹介</a>
-            <a class="menu_item" href="#sns_title">発信</a>
-            <a class="menu_item" href="#last_title">さいごに</a>
-            <a class="menu_item" href="#contact_title">連絡先</a>
+            <div class="menu_top">
+                <a class="menu_item" href="#first_title">はじめに</a>
+                <a class="menu_item" href="#skill_title">スキル</a>
+                <a class="menu_item" href="#work_title">製作物</a>
+                <a class="menu_item" href="#intro_title">自己紹介</a>
+            </div>
+            <div class="menu_top">
+                <a class="menu_item" href="#sns_title">発信</a>
+                <a class="menu_item" href="#last_title">さいごに</a>
+                <a class="menu_item" href="#contact_title">連絡先</a>
+            </div>
         </div>
     </header>
     
@@ -28,13 +32,17 @@
         <div class="title">
             <p class="title_item">Hasebe Takumi's<br>Portfolio</p>
             <div class="title_btn_group">
-                <a class="title_btn" href="#first_title">はじめに</a>
-                <a class="title_btn" href="#skill_title">スキル</a>
-                <a class="title_btn" href="#work_title">製作物</a>
-                <a class="title_btn" href="#intro_title">自己紹介</a>
-                <a class="title_btn" href="#sns_title">発信</a>
-                <a class="title_btn" href="#last_title">さいごに</a>
-                <a class="title_btn" href="#contact_title">連絡先</a>
+                <div class="title_btn_group_top">
+                    <a class="title_btn" href="#first_title">はじめに</a>
+                    <a class="title_btn" href="#skill_title">スキル</a>
+                    <a class="title_btn" href="#work_title">製作物</a>
+                    <a class="title_btn" href="#intro_title">自己紹介</a>
+                </div>
+                <div>
+                    <a class="title_btn" href="#sns_title">発信</a>
+                    <a class="title_btn" href="#last_title">さいごに</a>
+                    <a class="title_btn" href="#contact_title">連絡先</a>
+                </div>
             </div>
         </div>
         
@@ -55,42 +63,51 @@
                 <a class="skill_title" id="skill_title">スキル</a>
                 <p class="skill_good">製作物の中でしっかりと利用したもの</p>
                 <div class="all_skill">
-                    <table>
+                    <table class="skill_tab">
                         <tr>
                             <td>フロントエンド</td>
-                            <td class="skill_image"> -　<img class="skill_thumbnail" src="img/html-5.svg" width="50" height="50">　HTML　　<img class="skill_thumbnail" src="img/css.svg" width="50" height="50">　CSS</td>
+                            <td> -　</td>
+                            <td class="skill_image"><img class="skill_thumbnail" src="img/html-5.svg" width="50" height="50">　HTML　　<img class="skill_thumbnail" src="img/css.svg" width="50" height="50">　CSS</td>
                         </tr>
                         <tr>
                             <td>バックエンド</td>
-                            <td class="skill_image"> -　<img class="skill_thumbnail" src="img/ruby.svg" width="50" height="50">　Ruby　　<img class="skill_thumbnail" src="img/rails.svg" width="50" height="50">　Ruby on Rails</td>
+                            <td> -　</td>
+                            <td class="skill_image"><img class="skill_thumbnail" src="img/ruby.svg" width="50" height="50">　Ruby　　<img class="skill_thumbnail" src="img/rails.svg" width="50" height="50">　Ruby on Rails</td>
                         </tr>
                         <tr>
                             <td>データベース</td>
-                            <td class="skill_image"> -　<img class="skill_thumbnail" src="img/mysql.svg" width="50" height="50">　MySQL</td>
+                            <td> -　</td>
+                            <td class="skill_image"><img class="skill_thumbnail" src="img/mysql.svg" width="50" height="50">　MySQL</td>
                         </tr>
                         <tr>
                             <td>テスト</td>
-                            <td class="skill_image"> -　<img class="skill_thumbnail" src="img/rubocop.svg" width="50" height="50">　Rubocop(静的)　　Rspec(動的)</td>
+                            <td> -　</td>
+                            <td class="skill_image"><img class="skill_thumbnail skill_thumbnail_hidden" src="img/rubocop.svg" width="50" height="50">　Rubocop(静的)　　Rspec(動的)</td>
                         </tr>
                         <tr>
                             <td>AWS</td>
-                            <td class="skill_image"> -　Cloud9　　EC2　　VPC　　CertificateManager　　Route53　　S3　　CloudFront</td>
+                            <td> -　</td>
+                            <td class="skill_image">Cloud9　　EC2　　VPC　　CertificateManager　　Route53　　S3　　CloudFront</td>
                         </tr>
                         <tr>
                             <td>webサーバー</td>
-                            <td class="skill_image"> -　Nginx　　Unicorn</td>
+                            <td> -　</td>
+                            <td class="skill_image">Nginx　　Unicorn</td>
                         </tr>
                         <tr>
                             <td>環境構築</td>
-                            <td class="skill_image"> -　<img class="skill_thumbnail" src="img/docker.svg" width="50" height="50">　Docker　　Docker-Compose(開発環境のみ)</td>
+                            <td> -　</td>
+                            <td class="skill_image"><img class="skill_thumbnail skill_thumbnail_hidden" src="img/docker.svg" width="50" height="50">　Docker　　Docker-Compose</td>
                         </tr>
                         <tr>
                             <td>CI/CD</td>
-                            <td class="skill_image"> -　<img class="skill_thumbnail" src="img/circleci.svg" width="50" height="50">　CircleCI(自動テストのみ)</td>
+                            <td> -　</td>
+                            <td class="skill_image"><img class="skill_thumbnail" src="img/circleci.svg" width="50" height="50">　CircleCI</td>
                         </tr>
                         <tr>
                             <td>コード管理</td>
-                            <td class="skill_image"> -　<img class="skill_thumbnail" src="img/git.svg" width="50" height="50">　Git　　<img class="skill_thumbnail" src="img/github.svg" width="50" height="50">　GitHub</td>
+                            <td> -　</td>
+                            <td class="skill_image"><img class="skill_thumbnail" src="img/git.svg" width="50" height="50">　Git　　<img class="skill_thumbnail" src="img/github.svg" width="50" height="50">　GitHub</td>
                         </tr>
                     </table>
                 </div>
@@ -100,7 +117,8 @@
                         <table>
                             <tr>
                                 <td>フロントエンド</td>
-                                <td class="skill_image"> -　<img class="skill_thumbnail" src="img/js.svg" width="50" height="50">　JavaScript</td>
+                                <td> -　</td>
+                                <td class="skill_image"><img class="skill_thumbnail" src="img/js.svg" width="50" height="50">　JavaScript</td>
                             </tr>
                         </table>
                     </div>
@@ -134,39 +152,48 @@
                             <table>
                                 <tr>
                                     <td>フロントエンド</td>
-                                    <td> - HTML CSS JavaScript</td>
+                                    <td> - </td>
+                                    <td>HTML CSS JavaScript</td>
                                 </tr>
                                 <tr>
                                     <td>バックエンド</td>
-                                    <td> - Ruby Ruby on Rails</td>
+                                    <td> - </td>
+                                    <td>Ruby Ruby on Rails</td>
                                 </tr>
                                 <tr>
                                     <td>データベース</td>
-                                    <td> - MySQL</td>
+                                    <td> - </td>
+                                    <td>MySQL</td>
                                 </tr>
                                 <tr>
                                     <td>テスト</td>
-                                    <td> - Rubocop(静的) Rspec(動的)</td>
+                                    <td> - </td>
+                                    <td>Rubocop(静的) Rspec(動的)</td>
                                 </tr>
                                 <tr>
                                     <td>AWS</td>
-                                    <td> - Cloud9 EC2 VPC CertificateManager Route53</td>
+                                    <td> - </td>
+                                    <td>Cloud9 EC2 VPC CertificateManager Route53</td>
                                 </tr>
                                 <tr>
                                     <td>webサーバー</td>
-                                    <td> - Nginx</td>
+                                    <td> - </td>
+                                    <td>Nginx</td>
                                 </tr>
                                 <tr>
                                     <td>Rack webサーバー</td>
-                                    <td> - Unicorn</td>
+                                    <td> - </td>
+                                    <td>Unicorn</td>
                                 </tr>
                                 <tr>
                                     <td>環境構築</td>
-                                    <td> - Docker Docker-Compose(開発環境のみ)</td>
+                                    <td> - </td>
+                                    <td>Docker Docker-Compose(開発環境のみ)</td>
                                 </tr>
                                 <tr>
                                     <td>CI/CD</td>
-                                    <td> - CircleCI(自動テストのみ)</td>
+                                    <td> - </td>
+                                    <td>CircleCI(自動テストのみ)</td>
                                 </tr>
                             </table>
                         </div>
@@ -218,8 +245,8 @@
                             </div>                        
                         </div>
                         <div class="alert_group">
-                            <p class="alert">※このアプリは公開用のレプリカです。実際に稼働してるアプリは<a class="real" href="https://system.itto-takasaka.com/users/sign_in">こちら</a>ですが、</p>
-                            <p class="alert">　ログインはできなくしております。</p>
+                            <p class="alert">※このアプリは公開用のレプリカです。実際に稼働してるアプリは<a class="real" href="https://system.itto-takasaka.com/users/sign_in">こちら</a>ですが、<a class="alert">ログインはできなくしております。</a></p>
+                            
                         </div>
                     </div>
                 </div>
@@ -541,7 +568,7 @@
                               <li>
                                 <p class="timeline-date">10月30日</p>
                                 <div class="timeline-content">
-                                  <p class="timeline_title">MacBook到着→プログラミング経歴に続きます</p>
+                                  <p class="timeline_title">MacBook到着</p>
                                 </div>
                               </li>
                             </ul>
@@ -553,18 +580,23 @@
             <div class="sns">
                 <a class="sns_title" id="sns_title">発信</a>
                 <div class="sns_item">
-                    <div class="github">
-                        <a>GitHub - </a><a href="https://github.com/hasebetakumi">https://github.com/hasebetakumi</a><br>
-                    </div>
-                    <div class="qiita">
-                        <a>Qiita - </a><a href="https://qiita.com/hasebetakumi/items/72c62060458207e23a10">githubにあるrailsアプリをAWSにデプロイ</a><br>
-                        <a>Qiita - </a><a href="https://qiita.com/hasebetakumi/items/0133a164666fa3579391">【AWS】S3 + Cloud9 + CertificateManager + CloudFront + Route53 で静的webサイトを独自ドメインでSSL化して公開</a><br>
-                    </div>
-                    
-                    <div class="twitter">
-                    </div>
-                    <div class="facebook">
-                    </div>
+                    <table class="sns_table">
+                        <tr>
+                            <td>GitHub</td>
+                            <td>　-</td>
+                            <td><a href="https://github.com/hasebetakumi">https://github.com/hasebetakumi</a></td>
+                        </tr>
+                        <tr>
+                            <td>Qiita</td>
+                            <td>　-</td>
+                            <td><a href="https://qiita.com/hasebetakumi/items/72c62060458207e23a10">githubにあるrailsアプリをAWSにデプロイ</a></td>
+                        </tr>
+                        <tr>
+                            <td>Qiita</td>
+                            <td>　-</td>
+                            <td><a href="https://qiita.com/hasebetakumi/items/0133a164666fa3579391">【AWS】S3 + Cloud9 + CertificateManager + CloudFront + Route53 で静的webサイトを独自ドメインでSSL化して公開</a></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
             

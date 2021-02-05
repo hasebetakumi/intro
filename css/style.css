@@ -8,12 +8,15 @@ header{
     width: 100%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
     background-color: white;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     text-align: center;
     font-size: 15px;
     z-index: 99;
+}
+.menu{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .menu_item{
     color: black;
@@ -27,6 +30,32 @@ header{
     color: white;
 }
 /*　ヘッダー　*/
+@media (max-width: 1279px){
+
+}
+
+@media (max-width: 900px){
+header{
+    font-size: 14px;
+}
+.menu_item{
+    margin-right: 8px;
+}
+}
+
+@media (max-width: 480px){
+header{
+    height: 50px;
+}
+.menu{
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.menu_top{
+    margin-bottom: 3px;
+}
+}
 
 /*________________________________________*/
 /* 表紙 */
@@ -52,6 +81,13 @@ header{
     border: solid 1px;
     border-color: black;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title_btn_group_top{
+    margin-top: 8px;
+    margin-bottom: 12px;
 }
 .title_btn{
     color: black;
@@ -60,10 +96,27 @@ header{
     border-color: black;
     padding: 3px;
     transition: all 0.3s ease 0s;
+    margin-right: 10px;
 }
 .title_btn:hover{
     background-color: black;
     color: white;
+}
+
+@media (max-width: 1279px){
+
+}
+
+@media (max-width: 900px){
+.title_btn_group{
+    flex-direction: column;
+}
+}
+
+@media (max-width: 480px){
+.title_btn{
+    font-size: 15px;
+}
 }
 /* 表紙 */
 
@@ -86,7 +139,9 @@ header{
     padding-bottom: 5px;
 }
 .first_text_group{
-    margin: 30px 0 100px 0;
+    max-width: 90%;
+    margin: 30px auto;
+    margin-bottom: 100px;
 }
 
 
