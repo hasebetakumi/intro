@@ -128,3 +128,28 @@
 .ruby{
     color: red;
 }
+
+@media (max-width: 1279px){
+
+}
+
+@media (max-width: 900px){
+.timeline{
+    padding: 0 5px 0 5px;
+}
+}
+
+@media (max-width: 449px){
+.intro_name{
+    font-size: 16px;
+}
+.timeline{
+    margin-left: 15px;
+}
+.timeline-content{
+    width: 100%;
+}
+.timeline-content:before {
+  display: none;
+}
+}
