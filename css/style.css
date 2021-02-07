@@ -68,6 +68,7 @@ header{
     align-items: center;
     flex-direction: column;
     margin-top: 40px;
+    text-align: center;
     
 }
 .title_item{
@@ -103,16 +104,34 @@ header{
     color: white;
 }
 
+.down_link{
+    margin-top: 100px;
+}
+.down_icon{
+    width: 75px;
+    height: 75px;
+    padding-top: 15px;
+    font-size: 40px;
+    color: black;
+    transition: all 0.3s ease 0s;
+    border: solid 1px;
+    border-radius: 50%;
+    border-color: black;
+}
+.down_icon:hover{
+    background-color: black;
+    color: white;
+}
+
+
 @media (max-width: 1279px){
 
 }
-
 @media (max-width: 900px){
 .title_btn_group{
     flex-direction: column;
 }
 }
-
 @media (max-width: 480px){
 .title_btn{
     font-size: 15px;

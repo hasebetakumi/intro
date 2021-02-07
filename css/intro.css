@@ -38,6 +38,11 @@
 .history{
     margin-bottom: 15px;
 }
+.label_down{
+    height: 100%;
+    margin-left: 20px;
+    font-size: 25px;
+}
 /*ラベル*/
 .history label {
     display: block;
@@ -50,6 +55,8 @@
     transition: all 0.5s;
     width: 50%;
     border: solid 1px;
+    display: flex;
+    justify-content: center;
 }
 /*ラベルホバー時*/
 .history label:hover {

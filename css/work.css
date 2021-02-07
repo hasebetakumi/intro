@@ -42,7 +42,7 @@
     border: solid 1px;
     border-color: gray;
     margin-bottom: 10px;
-    box-shadow: 0 0px 20px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 3px #777;
 }
 .thumbnail_title{
     font-weight: bold;
@@ -86,6 +86,8 @@
     cursor :pointer;
     transition: all 0.5s;
     border: solid 1px;
+    display: flex;
+    justify-content: center;
 }
 /*ラベルホバー時*/
 .tech_reason label:hover {
