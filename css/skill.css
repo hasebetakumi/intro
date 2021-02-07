@@ -20,7 +20,7 @@
 }
 .all_skill{
     text-align: left;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 .skill_table{
@@ -36,7 +36,7 @@
 
 @media (max-width: 1279px){
 .all_skill{
-    width: 80%;
+    width: 70%;
 }
 }
 
